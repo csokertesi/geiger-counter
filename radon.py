@@ -20,7 +20,7 @@ for c in alphabet:
         break
 
 l.lcd_display_string(f"Ne huzz ki! {MEASUREMENT_PERIOD}s", 1)
-l.lcd_display_string(f"...Bq 0 {c}", 2)
+l.lcd_display_string(f"...Bq 0m {c}", 2)
 try:
     i = 0
     abs = 0
